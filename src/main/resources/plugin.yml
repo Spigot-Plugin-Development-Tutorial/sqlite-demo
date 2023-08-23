@@ -1,0 +1,11 @@
+name: pointy
+version: '${project.version}'
+main: me.kodysimpson.pointy.Pointy
+api-version: '1.20'
+commands:
+  points:
+    description: Shows the amount of points you or another player has
+    usage: /points [player]
+  setpoints:
+    description: Sets the amount of points a player has
+    usage: /setpoints <player> <amount>
